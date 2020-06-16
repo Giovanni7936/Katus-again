@@ -240,12 +240,9 @@ kata17Heading.append("Kata 17")
 const kata17Answer = document.createElement('div')
 mainElement.append(kata17Answer)
 
-let smallest = sampleArray[0]
-for(let index = 0; index < sampleArray.length; index ++){
-    if(sampleArray[index] < smallest ){
-         
-    }
-}
+
+kata17Answer.append (Math.min(...sampleArray)) 
+
 
 const kata18Heading = document.createElement("h2")
 kata18Heading.id = "h1"
@@ -254,5 +251,6 @@ kata18Heading.append("Kata 18")
 const kata18Answer = document.createElement('div')
 mainElement.append(kata18Answer)
 
+kata18Answer.append(Math.max(...sampleArray))
 
 

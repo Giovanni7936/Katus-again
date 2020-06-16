@@ -202,35 +202,57 @@ mainElement.append(kata14Heading)
 kata14Heading.append("Kata 14")
 const kata14Answer = document.createElement('div')
 mainElement.append(kata14Answer)
-for(let z = 0; z < sampleArray.length; )
 
+for(let index = 0; index < sampleArray.length; index ++){
+        kata14Answer.append(sampleArray[index]* sampleArray[index] + ',')
+}
 
 
 const kata15Heading = document.createElement("h2")
 kata15Heading.id = "h1"
 mainElement.append(kata15Heading)
 kata15Heading.append("Kata 15")
-
-
-
+const kata15Answer = document.createElement('div')
+mainElement.append(kata15Answer)
+let sum = 0
+for(let number  = 1; number <= 20; number +=1){
+    sum += number
+}
+kata15Answer.append(sum)
 
 const kata16Heading = document.createElement("h2")
 kata16Heading.id = "h1"
 mainElement.append(kata16Heading)
 kata16Heading.append("Kata 16")
+const kata16Answer = document.createElement('div')
+mainElement.append(kata16Answer)
 
+let total = 0
+for(let index = 0; index < sampleArray.length; index ++){
+    total += sampleArray[index]
+}
+kata16Answer.append(total)
 
 const kata17Heading = document.createElement("h2")
 kata17Heading.id = "h1"
 mainElement.append(kata17Heading)
 kata17Heading.append("Kata 17")
+const kata17Answer = document.createElement('div')
+mainElement.append(kata17Answer)
 
+let smallest = sampleArray[0]
+for(let index = 0; index < sampleArray.length; index ++){
+    if(sampleArray[index] < smallest ){
+         
+    }
+}
 
 const kata18Heading = document.createElement("h2")
 kata18Heading.id = "h1"
 mainElement.append(kata18Heading)
 kata18Heading.append("Kata 18")
-
+const kata18Answer = document.createElement('div')
+mainElement.append(kata18Answer)
 
 
 
